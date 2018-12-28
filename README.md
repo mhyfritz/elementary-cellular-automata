@@ -1,6 +1,6 @@
 # Elementary cellular automata
 
-Web app to explore the elementary cellular automata.
+Web app to explore the [elementary cellular automata](https://en.wikipedia.org/wiki/Elementary_cellular_automaton).
 
 http://mhyfritz.com/elementary-cellular-automata/
 
