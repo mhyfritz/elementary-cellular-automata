@@ -1,29 +1,15 @@
-# cellular-automata-d1-r1-k2
+# Elementary cellular automata
 
-## Project setup
-```
-npm install
-```
+Web app to explore the elementary cellular automata.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+http://mhyfritz.com/elementary-cellular-automata/
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Usage
 
-### Run your tests
-```
-npm run test
-```
+- you can either enter the [Wolfram code](https://en.wikipedia.org/wiki/Wolfram_code)
+  (0-255) or set the individual states as bits (0/1)
+- you can choose to use a random start configuration with a given density, otherwise
+  only a single cell (the middle one) is active at the start
+- finally, hit the `Run` button to view the time evoution
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Rule 184](rule-184.png)

@@ -1,14 +1,20 @@
 {
-  "name": "cellular-automata-d1-r1-k2",
+  "name": "elementary-cellular-automata",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Markus Hsi-Yang Fritz",
+    "email": "markus.h.y.fritz@gmail.com"
+  },
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
@@ -18,6 +24,9 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-template-compiler": "^2.5.17"
+  },
+  "vue": {
+    "baseUrl": ""
   },
   "eslintConfig": {
     "root": true,
