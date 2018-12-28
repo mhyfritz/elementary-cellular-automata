@@ -13,3 +13,12 @@ http://mhyfritz.com/elementary-cellular-automata/
 - finally, hit the `Run` button to view the time evoution
 
 ![Rule 184](rule-184.png)
+
+## Install and run locally
+
+```bash
+git clone https://github.com/mhyfritz/elementary-cellular-automata.git
+cd elementary-cellular-automata
+npm install
+npm run serve
+```
